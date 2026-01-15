@@ -1,43 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>WarrantyWise AI - Products</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<script src="https://cdn.tailwindcss.com"></script>
+<body class="bg-gray-50 font-sans">
+    <nav class="bg-white shadow-md p-5 flex justify-between items-center px-10">
+        <h1 class="text-2xl font-bold text-blue-800">WarrantyWise <span class="text-blue-500">AI</span></h1>
+        <div class="space-x-6 font-semibold">
+            <a href="index.html" class="hover:text-blue-600">Home</a>
+            <a href="products.html" class="text-blue-600 underline">Products</a>
+            <a href="aifeatures.html" class="hover:text-blue-600">AI Scanner</a>
+        </div>
+    </nav>
 
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="howitworks.html">How It Works</a></li>
-    <li><a href="aifeatures.html">AI Features</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
+    <div class="p-10 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-black text-center mb-10 text-slate-800">Our AI-Verified Protection Plans</h2>
 
-<header>
-  <h1>Products</h1>
-</header>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:scale-105 transition-transform border border-slate-200">
+                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500&q=80" alt="Smartphone" class="w-full h-52 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Smartphone Shield</h3>
+                    <p class="text-gray-500 text-sm mb-4">Covers: Screen Cracks, Liquid Damage, and Theft.</p>
+                    <p class="text-2xl font-black text-blue-600 mb-6">₹999 / year</p>
+                    <button onclick="alert('Smartphone Plan Selected: Screen & Liquid Damage Protection Activated!')" class="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700">Select Warranty</button>
+                </div>
+            </div>
 
-<div class="product-card">
-  <h3>Smartphone</h3>
-  <p>Includes AI-based warranty suggestion</p>
-  <a href="aifeatures.html" class="btn">View Warranty Options</a>
-</div>
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:scale-105 transition-transform border border-slate-200">
+                <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80" alt="Laptop" class="w-full h-52 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Laptop Ultimate</h3>
+                    <p class="text-gray-500 text-sm mb-4">Covers: Motherboard, Battery, and Keyboard issues.</p>
+                    <p class="text-2xl font-black text-blue-600 mb-6">₹2,499 / year</p>
+                    <button onclick="alert('Laptop Plan Selected: 2-Year Hardware & Battery Warranty Activated!')" class="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700">Select Warranty</button>
+                </div>
+            </div>
 
-<div class="product-card">
-  <h3>Laptop</h3>
-  <p>Includes AI-based warranty suggestion</p>
-  <a href="aifeatures.html" class="btn">View Warranty Options</a>
-</div>
-
-<div class="product-card">
-  <h3>Smart TV</h3>
-  <p>Includes AI-based warranty suggestion</p>
-  <a href="aifeatures.html" class="btn">View Warranty Options</a>
-</div>
-
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:scale-105 transition-transform border border-slate-200">
+                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=500&q=80" alt="Home Appliance" class="w-full h-52 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">HomeCare Plus</h3>
+                    <p class="text-gray-500 text-sm mb-4">Covers: Fridge, AC, and Washing Machine motors.</p>
+                    <p class="text-2xl font-black text-blue-600 mb-6">₹1,599 / year</p>
+                    <button onclick="alert('HomeCare Selected: Motor and Compressor Protection Activated!')" class="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700">Select Warranty</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
